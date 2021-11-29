@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/plataforma-evaluados/static/css/main.66b2b2dc.chunk.css",
-    "main.js": "/plataforma-evaluados/static/js/main.04174910.chunk.js",
-    "main.js.map": "/plataforma-evaluados/static/js/main.04174910.chunk.js.map",
+    "main.css": "/plataforma-evaluados/static/css/main.421233eb.chunk.css",
+    "main.js": "/plataforma-evaluados/static/js/main.50091af0.chunk.js",
+    "main.js.map": "/plataforma-evaluados/static/js/main.50091af0.chunk.js.map",
     "runtime-main.js": "/plataforma-evaluados/static/js/runtime-main.3cd77f10.js",
     "runtime-main.js.map": "/plataforma-evaluados/static/js/runtime-main.3cd77f10.js.map",
     "static/css/2.383c0125.chunk.css": "/plataforma-evaluados/static/css/2.383c0125.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.c65cf2c4.chunk.js.map": "/plataforma-evaluados/static/js/3.c65cf2c4.chunk.js.map",
     "index.html": "/plataforma-evaluados/index.html",
     "static/css/2.383c0125.chunk.css.map": "/plataforma-evaluados/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.66b2b2dc.chunk.css.map": "/plataforma-evaluados/static/css/main.66b2b2dc.chunk.css.map",
+    "static/css/main.421233eb.chunk.css.map": "/plataforma-evaluados/static/css/main.421233eb.chunk.css.map",
     "static/js/2.de1ac8ce.chunk.js.LICENSE.txt": "/plataforma-evaluados/static/js/2.de1ac8ce.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3cd77f10.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.de1ac8ce.chunk.js",
-    "static/css/main.66b2b2dc.chunk.css",
-    "static/js/main.04174910.chunk.js"
+    "static/css/main.421233eb.chunk.css",
+    "static/js/main.50091af0.chunk.js"
   ]
 }
