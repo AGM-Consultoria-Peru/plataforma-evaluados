@@ -11,10 +11,14 @@
 }
 .bienvenida{
   display: flex;
-  align-items: center;
+  align-items: center; 
   flex-direction: column;
+ 
 }
-
+.titulohome{
+  display: flex;
+  justify-content: center;
+}
 .titulo{
   display: flex;
   font-size: 24px;
@@ -40,7 +44,9 @@
  font-size: 14px;
 }
 .ejemplo{
-  margin-bottom: 20px;
+ display: flex;
+ flex-direction: column;
+
 }
 .boton{
   display: flex;
@@ -56,8 +62,9 @@
 /* Inicio de prueba OTIS */
 .containerotis{
   display: flex;
-  flex-direction: row;
-  margin-right: 20px;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  /* margin-right: 20px; */
 }
 .otis{
   margin-right: 7px;

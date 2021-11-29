@@ -37,10 +37,9 @@ export default function Barsit() {
           <Link to="/barsitdespedida">
             <button className="btn btn-danger">Finalizar</button>
           </Link>
-        </div>
-
-        <div className="App-timer col-xl-2 md-2">
-          <CountDownTimer hoursMinSecs={hoursMinSecs} />
+          <div className="App-timer col-xl-2 md-2">
+            <CountDownTimer hoursMinSecs={hoursMinSecs} />
+          </div>
         </div>
       </div>
     </div>

@@ -15,10 +15,10 @@ export default function OtisPrueba() {
   return (
     <div className="contenido">
       <div className="row">
-      <div className="col-xl-1 md-2"></div>
+        <div className="col-xl-1 md-2"></div>
 
         <div className="col-xl-9 md-10">
-        <h1 className="titulobarsit">Prueba OTIS</h1>
+          <h1 className="titulobarsit">Prueba OTIS</h1>
           <Pregunta1a5 />
           <Pregunta6a10 />
           <Pregunta11a15 />
@@ -27,13 +27,17 @@ export default function OtisPrueba() {
           <Pregunta26a30 />
           <Pregunta31a35 />
           <Pregunta36a40 />
-        </div>
-        <div className="App-timer col-xl-2 md-2" >
+          <div className="App-timer col-xl-2 md-2">
           <CountDownTimer hoursMinSecs={hoursMinSecs} />
         </div>
         <Link to="/otisdespedida">
-        <button className="btn btn-success">Finalizar</button>
+          <button className="btn btn-success">Finalizar</button>
         </Link>
+
+
+
+        </div>
+       
       </div>
     </div>
   );
