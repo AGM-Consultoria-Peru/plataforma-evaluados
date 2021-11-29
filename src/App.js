@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="ventana">
 
-      
+      <h1>Cambios originados</h1>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/introbarsit' element={<Barsitintro/>}/>
