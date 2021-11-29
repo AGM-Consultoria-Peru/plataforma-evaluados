@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/plataforma-evaluados/static/css/main.2bb64541.chunk.css",
-    "main.js": "/plataforma-evaluados/static/js/main.48ff851c.chunk.js",
-    "main.js.map": "/plataforma-evaluados/static/js/main.48ff851c.chunk.js.map",
+    "main.js": "/plataforma-evaluados/static/js/main.ad5fda19.chunk.js",
+    "main.js.map": "/plataforma-evaluados/static/js/main.ad5fda19.chunk.js.map",
     "runtime-main.js": "/plataforma-evaluados/static/js/runtime-main.3cd77f10.js",
     "runtime-main.js.map": "/plataforma-evaluados/static/js/runtime-main.3cd77f10.js.map",
     "static/css/2.383c0125.chunk.css": "/plataforma-evaluados/static/css/2.383c0125.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.de1ac8ce.chunk.js",
     "static/css/main.2bb64541.chunk.css",
-    "static/js/main.48ff851c.chunk.js"
+    "static/js/main.ad5fda19.chunk.js"
   ]
 }
