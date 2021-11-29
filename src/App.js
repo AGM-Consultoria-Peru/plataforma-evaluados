@@ -17,7 +17,7 @@ function App() {
 
       <h1>Cambios originados</h1>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/introbarsit' element={<Barsitintro/>}/>
         <Route path='/barsitprueba' element={<Barsit/>}/>
         <Route path='/barsitdespedida' element={<DespedidaBarsit/>}/>
