@@ -2,7 +2,7 @@
   "name": "resultados",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://agm-consultoria-peru.github.io/plataforma-evaluados",
+  "homepage": "http://AGM-Consultoria-Peru.github.io/plataforma-evaluados",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
