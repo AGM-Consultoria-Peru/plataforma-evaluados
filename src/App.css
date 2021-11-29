@@ -4,6 +4,11 @@
   padding: 0;
  
 }
+.titulobarsit{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
 .bienvenida{
   display: flex;
   align-items: center;

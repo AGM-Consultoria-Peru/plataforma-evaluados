@@ -17,28 +17,32 @@ export default function Barsit() {
   const hoursMinSecs = { hours: 0, minutes: 10, seconds: 0 };
   return (
     <div className="contenido">
-      <div>
-        <div className="col-xl-7 md-10">
-          <Pregunta1a5/>
-          <Pregunta6a10/>
-          <Pregunta11a14/>
+      <div className="row">
+        <div className="col-xl-1 md-2"></div>
+
+        <div className="col-xl-9 md-8">
+          <h1 className="titulobarsit">Prueba BARSIT</h1>
+          <Pregunta1a5 />
+          <Pregunta6a10 />
+          <Pregunta11a14 />
           <Pregunta15a20 />
           <Pregunta21a25 />
-          <Pregunta26a30/>
+          <Pregunta26a30 />
           <Pregunta31a35 />
           <Pregunta36a40 />
           <Pregunta41a45 />
           <Pregunta46a50 />
           <Pregunta51a55 />
           <Pregunta56a60 />
+          <Link to="/barsitdespedida">
+            <button className="btn btn-danger">Finalizar</button>
+          </Link>
+        </div>
+
+        <div className="App-timer col-xl-2 md-2">
+          <CountDownTimer hoursMinSecs={hoursMinSecs} />
         </div>
       </div>
-      <div className="App-timer col-xl-5 md-2">
-        <CountDownTimer hoursMinSecs={hoursMinSecs} />
-      </div>
-      <Link to="/barsitdespedida">
-      <button className="btn btn-danger">Finalizar</button>
-      </Link>
     </div>
   );
 }

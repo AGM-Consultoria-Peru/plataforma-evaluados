@@ -14,9 +14,11 @@ export default function OtisPrueba() {
   const hoursMinSecs = { hours: 0, minutes: 15, seconds: 0 };
   return (
     <div className="contenido">
-      <div>
-        
-        <div className="col-xl-7 md-10">
+      <div className="row">
+      <div className="col-xl-1 md-2"></div>
+
+        <div className="col-xl-9 md-10">
+        <h1 className="titulobarsit">Prueba OTIS</h1>
           <Pregunta1a5 />
           <Pregunta6a10 />
           <Pregunta11a15 />
@@ -26,7 +28,7 @@ export default function OtisPrueba() {
           <Pregunta31a35 />
           <Pregunta36a40 />
         </div>
-        <div className="App-timer col-xl-5 md-2" >
+        <div className="App-timer col-xl-2 md-2" >
           <CountDownTimer hoursMinSecs={hoursMinSecs} />
         </div>
         <Link to="/otisdespedida">
