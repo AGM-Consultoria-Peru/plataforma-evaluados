@@ -1,0 +1,97 @@
+*{
+  background-color: rgb(255, 255, 248);
+  margin: 0;
+  padding: 0;
+ 
+}
+.bienvenida{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo{
+  display: flex;
+  font-size: 24px;
+ justify-content: center;
+}
+.ventana{
+  margin: 10px 20px 10px 20px;
+  font-size: 14px;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 10px;
+}
+.pregunta{
+  display: flex;
+  margin-right: 20px;
+  margin: 0 20px 0 0;
+  font-size: 14px;
+}
+.alternativas{
+  display: flex;
+ font-size: 14px;
+}
+.ejemplo{
+  margin-bottom: 20px;
+}
+.boton{
+  display: flex;
+  justify-content: center;
+}
+.despedida{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Inicio de prueba OTIS */
+.containerotis{
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+.otis{
+  margin-right: 7px;
+}
+.titulootis{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.alternativas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.alternativas2{
+  margin-right: 30px;
+}
+.btn-danger{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.App-timer{
+  position: fixed;
+  top: 5%;
+  right: 2%;
+  font-size: 100%;
+  color: red;
+}
+/* fin de OTIS */
+
+/* Inicio DISC */
+
+.container-disc1{
+  display: grid;
+}
+.final{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
