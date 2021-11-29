@@ -16,7 +16,7 @@ function App() {
     <div className="ventana">
 
       <Routes>
-        <Route path='https://agm-consultoria-peru.github.io/plataforma-evaluados/' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/introbarsit' element={<Barsitintro/>}/>
         <Route path='/barsitprueba' element={<Barsit/>}/>
         <Route path='/barsitdespedida' element={<DespedidaBarsit/>}/>
